@@ -7,6 +7,7 @@ Work in progress.
 
 - Andrew Dickinson
 - Coranna Howard
+- Grace Bergman
 - Jasmine Scott
 - Jessica Stone (Pierce County Parks & Recreation)
 - Krystaal McClain
