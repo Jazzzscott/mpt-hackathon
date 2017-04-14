@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"name": "Root",
+			"path": "./",
+			"folder_exclude_patterns": [
+				"doc",
+				"src"
+			]
+		}
+	],
+	"settings":
+	{
+		"tab_size": 4
+	}
+}
