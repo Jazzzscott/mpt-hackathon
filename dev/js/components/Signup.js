@@ -12,14 +12,14 @@ const Signup = () => (
             <hr className = "hrGreen"/>
             <input className="input" placeholder="email"></input>
             <input className="input" placeholder="password"></input>
-            <a className="btn btn-default btn-lg btn-signup" href="#" role="button">Go</a>
+            <a className="btn btn-default btn-lg btn-signup" href="/profile" role="button">Go</a>
             <hr className = "hrGreen"/>
             <p>Earn points every time you check in at a park. Once you''ve earned 50 points, redeem them for a voucher to a Tacoma Metro Park event! </p>
           </div>
         </div>
-      </div>    
+      </div>
     </div>
-  </div>  
+  </div>
 );
 
 export default Signup;
