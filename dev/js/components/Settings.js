@@ -13,7 +13,7 @@ class Settings extends React.Component {
 					<label><input type="radio" />20-24</label><br/>
 					<label><input type="radio" />25-34</label>
 				</div>
-				<div>
+		 		<div>
 					<label><input type="radio" />35-44</label><br/>
 					<label><input type="radio" />45-54</label><br/>
 					<label><input type="radio" />55-64</label><br/>
