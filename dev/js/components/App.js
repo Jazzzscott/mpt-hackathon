@@ -5,11 +5,14 @@ import About from './About'
 import Signup from './Signup'
 import Profile from './Profile'
 import Settings from './Settings'
+import Header from './Header'
 
 require('../../scss/style.scss');
 
 const App = () => (
+
 	<div>
+		<Header/>
 		 <Route exact path="/" component={Signup}/>
 		 <Route exact path="/about" component={About}/>
 		 <Route exact path="/profile" component={Profile}/>
