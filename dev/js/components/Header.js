@@ -18,7 +18,7 @@ const Header = () => (
 			<div className="collapse navbar-collapse">
                 <ul className="nav navbar-nav navbar-right">
 					<li><a href="/profile"><i className="fa fa-smile-o" aria-hidden="true"></i>&nbsp;Profile</a></li>
-					<li><a href="/event"><i className="fa fa-trophy" aria-hidden="true"></i>&nbsp;My Park Points</a></li>
+					<li><a href="/parkpoints"><i className="fa fa-trophy" aria-hidden="true"></i>&nbsp;My Park Points</a></li>
 					<li><a href="/parks"><i className="fa fa-leaf" aria-hidden="true"></i>&nbsp;Tacoma Parks</a></li>
 					<li><a href="/event"><i className="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;Upcoming Events</a></li>
 					<li><a href="/setting"><i className="fa fa-cog" aria-hidden="true"></i>&nbsp;Settings</a></li>

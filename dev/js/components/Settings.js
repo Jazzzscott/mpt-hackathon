@@ -40,10 +40,5 @@ class Settings extends React.Component {
 	}
 }
 
-function mapStateToProps(state) {
-    return {
-        user: state.activeUser
-    };
-}
 
-export default connect(mapStateToProps)(Settings);
+export default Settings;
