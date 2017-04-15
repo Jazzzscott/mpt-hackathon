@@ -7,6 +7,7 @@ import Profile from './Profile'
 import Events from './Events'
 import Settings from './Settings'
 import Header from './Header'
+import Footer from './Footer'
 import Parks from './Parks'
 import ParkPoints from './ParkPoints'
 
@@ -21,9 +22,10 @@ const App = () => (
 		 <Route exact path="/parks" component={Parks}/>
 
 		 <Route exact path="/settings" component={Settings}/>
-     <Route exact path="/signup" component={Signup}/>
+     	 <Route exact path="/signup" component={Signup}/>
 		 <Route exact path="/myparkpoints" component={ParkPoints}/>
 		 <Route exact path="/event" component={Events}/>
+		 <Footer/>
 	</div>
 );
 

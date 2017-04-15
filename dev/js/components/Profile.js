@@ -55,7 +55,7 @@ const Profile = () => (
         <span>12</span>
       </div>  
     </div>
-    <div className="row">
+    <div className="row last-row">
       <div className=" col-xs-8 badgeText">
         <p>Days Visited This Year</p>
       </div>  

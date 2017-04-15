@@ -10,7 +10,7 @@ class EventView extends React.Component{
 
     if(filter==="none"){
       return(
-        <div>
+        <div className="event-dates-main">
           <h3>Saturday, April 1</h3>
           <ul>
             <li>Ryan's Park Volunteer Work Party! - 9am</li>
@@ -44,7 +44,7 @@ class EventView extends React.Component{
       )
     }else if (filter==="sports") {
       return (
-        <div>
+        <div className="event-dates">
           <h3>Saturday, April 1</h3>
           <ul>
             <li>Relax & Renew - 9am</li>
@@ -58,7 +58,7 @@ class EventView extends React.Component{
       )
     }else if (filter==="nature") {
       return (
-        <div>
+        <div className="event-dates">
           <h3>Saturday, April 1</h3>
           <ul>
             <li>Family Nature Walk-Swan Creek Park - 10am</li>
@@ -83,7 +83,7 @@ class EventView extends React.Component{
       )
     }else if (filter==="volunteer") {
       return (
-        <div>
+        <div className="event-dates">
           <h3>Saturday, April 1</h3>
           <ul>
             <li>Ryan's Park Volunteer Work Party! - 9am</li>
@@ -94,7 +94,7 @@ class EventView extends React.Component{
       )
     }else if (filter==="family") {
       return (
-        <div>
+        <div className="event-dates">
           <h3>Saturday, April 1</h3>
           <ul>
             <li>Family Nature Walk-Swan Creek Park - 10am</li>

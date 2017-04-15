@@ -61,9 +61,12 @@ $blue: #0757a0;
       padding-top: 5%;
     }
   }
-h3 {
-      color: $blue;
-}
+  h3 {
+    color: $blue;
+  }
+  #park4 {
+    margin-bottom:30px;
+  }
 
 .address {
   font-weight: bold;
@@ -98,6 +101,7 @@ hr {
 
 .settings{
   margin: 5% 5% 0 5%;
+  height: 85vh;
 
   .setting-property{
     font-weight: bold;
@@ -116,11 +120,10 @@ hr {
 }
 
 .profile {
-  height: 100vh;
   width: 100%;
 
   .btn-custom {
-    margin-top: 10px;
+    margin-top: 20px;
     background: #9BCA3C ;
   }
 
@@ -170,6 +173,9 @@ hr {
       display: block;
       font-weight: bold;
     }
+  }
+  .last-row {
+    padding-bottom: 30px;
   }
 }
 
@@ -247,6 +253,12 @@ hr {
     width:50%;
     height:143px;
   }
+  .event-dates-main {
+    height: 85vh;
+  }
+  .event-dates {
+    height: 60vh;
+  }
 }
 
 
@@ -299,6 +311,18 @@ hr {
   background-color: $green;
   opacity: .75;
   font-weight: bold;
+  margin-bottom: 40px;
+}
+
+
+  
+.footer {
+    margin-bottom: 0;
+    border-radius: 0;
+  
+  .copyright {
+      text-align: center;
+  }
 }
 
 
