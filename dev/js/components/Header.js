@@ -21,7 +21,7 @@ const Header = () => (
 					<li><a href="/parkpoints"><i className="fa fa-trophy" aria-hidden="true"></i>&nbsp;My Park Points</a></li>
 					<li><a href="/parks"><i className="fa fa-leaf" aria-hidden="true"></i>&nbsp;Tacoma Parks</a></li>
 					<li><a href="/event"><i className="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;Upcoming Events</a></li>
-					<li><a href="/setting"><i className="fa fa-cog" aria-hidden="true"></i>&nbsp;Settings</a></li>
+					<li><a href="/settings"><i className="fa fa-cog" aria-hidden="true"></i>&nbsp;Settings</a></li>
 					<li><a href="/about"><i className="fa fa-phone" aria-hidden="true"></i>&nbsp;Contact us</a></li>
 
 				</ul>
