@@ -9,6 +9,7 @@ import Event from './Event'
 import Settings from './Settings'
 import Header from './Header'
 import Parks from './Parks'
+import ParkPoints from './ParkPoints'
 
 require('../../scss/style.scss');
 
@@ -20,7 +21,8 @@ const App = () => (
 		 <Route exact path="/profile" component={Profile}/>
 		 <Route exact path="/parks" component={Parks}/>
 		 <Route exact path="/settings" component={Settings}/>
-		 <Route exact path="/signup" component={Signup}/>
+     <Route exact path="/signup" component={Signup}/>
+		 <Route exact path="/myparkpoints" component={ParkPoints}/>
 	</div>
 );
 
