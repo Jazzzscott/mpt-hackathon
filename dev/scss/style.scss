@@ -149,3 +149,18 @@ hr {
   width: 100%;
   margin-top: 50px;
 }
+
+.parkPoints {
+  .badge-number {
+    color: gold;
+    font-size: 10em;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  .img-responsive {
+    margin: 0 auto;
+    span {
+      position: absolute;
+    }
+  }
+}
