@@ -4,7 +4,6 @@ import { Router, Route } from 'react-router'
 import About from './About'
 import Signup from './Signup'
 import Profile from './Profile'
-import Park from './Park'
 import Events from './Events'
 import Settings from './Settings'
 import Header from './Header'
@@ -20,7 +19,7 @@ const App = () => (
 		 <Route exact path="/about" component={About}/>
 		 <Route exact path="/profile" component={Profile}/>
 		 <Route exact path="/parks" component={Parks}/>
-		 <Route exact path="/AlderwoodPark" component={Park}/>
+
 		 <Route exact path="/settings" component={Settings}/>
      <Route exact path="/signup" component={Signup}/>
 		 <Route exact path="/myparkpoints" component={ParkPoints}/>
