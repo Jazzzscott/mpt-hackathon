@@ -1,7 +1,12 @@
 
-# Metro Parks Hackathon project
+# ParkPoints
 
-Work in progress.
+Project for the inaugural 2017 Metro Parks Tacoma hackathon.
+
+# Project files
+
+* [Presentation](https://docs.google.com/presentation/d/1Awl_rEF0Gddq9EtERtELjKu2-Kpn7wsIFQC1__ZNbS8/view) (or see `doc/MPTH_ParkPoints.pdf`)
+* [Figma design document](https://www.figma.com/file/0EOt5jrOAvDpFZxnJHhXkjZ9/MPTH)
 
 # Contributors
 
