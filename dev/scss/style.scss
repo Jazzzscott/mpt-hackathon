@@ -207,12 +207,17 @@ hr {
     color: gold;
     font-size: 10em;
     font-weight: bold;
-    margin: 0 auto;
+
+    top: -270px;
+    left:65px;
+
+
   }
   .img-responsive {
     margin: 0 auto;
     span {
       position: absolute;
+      margin-top:-50px;
     }
   }
 }
