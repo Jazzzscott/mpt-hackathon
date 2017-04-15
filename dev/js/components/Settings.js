@@ -1,6 +1,5 @@
 
 import React, {Component} from 'react';
-import {connect} from 'react-redux';
 
 class Settings extends React.Component {
 	render() {
@@ -40,10 +39,5 @@ class Settings extends React.Component {
 	}
 }
 
-function mapStateToProps(state) {
-    return {
-        user: state.activeUser
-    };
-}
 
-export default connect(mapStateToProps)(Settings);
+export default Settings;

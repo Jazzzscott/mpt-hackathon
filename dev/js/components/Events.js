@@ -18,37 +18,26 @@ class Events extends React.Component{
   render(){
     var sorted=this.state.sort;
     const sportsStyle={
-      height:"100%",
-      width:"100%",
-      backgroundImage:"url('/img/sports.png')"
+      backgroundImage:"url('/img/sports.png') "
     }
     const natureStyle={
-      height:"100%",
-      width:"100%",
-      backgroundImage:"url('/img/nature.png')"
+      backgroundImage:"url('/img/nature.png') "
     }
     const volunteerStyle={
-      height:"100%",
-      width:"100%",
       backgroundImage:"url('/img/volunteer.png')"
     }
     const familyStyle={
-      height:"100%",
-      width:"100%",
-      backgroundImage:"url('/img/volunteer.png')"
+      backgroundImage:"url('/img/family.png')"
     }
+
     return(
       <div className="container">
         <div className="row">
           <div className="events">
-
-
-            <button style={sportsStyle} value="sports" onClick={this.sortHandler}></button>
-            <button style={natureStyle} value="nature" onClick={this.sortHandler}></button>
-            <button style={volunteerStyle} onClick={this.sortHandler}></button>
-            <button style={familyStyle} onClick={this.sortHandler}></button>
-
-
+              <button style={sportsStyle}  value="sports" onClick={this.sortHandler}> </button>
+              <button style={natureStyle} value="nature" onClick={this.sortHandler}></button>
+              <button style={volunteerStyle} value="volunteer" onClick={this.sortHandler}></button>
+              <button style={familyStyle} value="family" onClick={this.sortHandler}></button>
             <EventView sorter={sorted} />
           </div>
         </div>

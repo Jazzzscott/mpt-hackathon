@@ -15,7 +15,7 @@ const Profile = () => (
       </div>
       <div className="row">  
         <div className="col-sm-12 separator">
-          <hr/>
+          <hr className="hrBlue"/>
         </div> 
       </div>
       <div className="col-sm-6 profileImage">  
@@ -34,7 +34,7 @@ const Profile = () => (
     </div>
     <div className="row">  
       <div className="col-sm-12 separator">
-        <hr/>
+        <hr className="hrBlue"/>
       </div> 
     </div>
     <div className="row">
