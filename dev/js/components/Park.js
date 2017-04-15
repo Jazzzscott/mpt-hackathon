@@ -17,11 +17,12 @@ class Park extends React.Component{
           <div className='park-details'>
             <img className='badge'/>
             <h2>You visted this park 10 times!</h2>
+
             <img className='badge'/>
           </div>
 
           <div className='upcoming-events'>
-            <h2>Upcoming Events</h 2>
+            <h2>Upcoming Events</h2>
             <ul>
               <label>April 1 </label>
               <li> 9:00am - Ryan's Park Volunteer Work Party!</li>
