@@ -5,31 +5,40 @@ import {connect} from 'react-redux';
 class Park extends React.Component{
   render(){
     return(
-    <div>
-      <div className="park-header">
-        Welcome to {this.props.park.name}
-      </div>
+    <div className="container">
+      <div className="row">
+        <div className="Park">
+          <div className="park-header">
+            <h1>
+            Welcome to AddlerPark
+            </h1>
+          </div>
 
-      <div className='park-details'>
-        <img className='badge'>
-        you visisted this park {this.props.park.visits} number of times!
-        <img className='badge'>
-      </div>
+          <div className='park-details'>
+            <img className='badge'/>
+            <h2>You visted this park 10 times!</h2>
+            <img className='badge'/>
+          </div>
 
-      <div className='upcoming-events'>
-        <ul>
-          <li>event 1</li>
-          <li>event 2</li>
-          <li>event 3</li>
-        </ul>
-      </div>
+          <div className='upcoming-events'>
+            <ul>
+              <li>April 1 - Ryan's Park Volunteer Work Party!</li>
 
-      <div className='nearby-parks'>
-        <ul>
-          <li>park 1</li>
-          <li>park 2</li>
-          <li>park 3</li>
-        </ul>
+              <li>April 1 - China Lake Volunteer Work Party!</li>
+              <li>April 1 - Relax & Renew</li>
+              <a href="/events"><li> Show more</li></a>
+            </ul>
+          </div>
+
+          <div className='nearby-parks'>
+            <ul>
+              <li>Baltimore Park</li>
+              <li>Cummings Park</li>
+              <li>Roosevelt Park</li>
+
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 

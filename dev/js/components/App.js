@@ -6,6 +6,7 @@ import Signup from './Signup'
 import Profile from './Profile'
 import Settings from './Settings'
 import Header from './Header'
+import Park from './Park'
 
 require('../../scss/style.scss');
 
@@ -17,6 +18,7 @@ const App = () => (
 		 <Route exact path="/about" component={About}/>
 		 <Route exact path="/profile" component={Profile}/>
 		 <Route exact path="/settings" component={Settings}/>
+		 <Route exact path="/parks/AddlerPark" component={Park}/>
 	</div>
 );
 
