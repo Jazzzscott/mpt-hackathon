@@ -1,4 +1,6 @@
-import React from 'react'
+
+import React, {Component} from 'react';
+import {connect} from 'react-redux';
 
 class Event extends React.Component{
   render(){
@@ -12,5 +14,9 @@ class Event extends React.Component{
   }
 }
 
+function mapStateToProps(state) {
+    return {
+    };
+}
 
-ReactDOM.render(<Event />,document.getElementById('app'));
+export default connect(mapStateToProps)(Event);
