@@ -13,7 +13,7 @@ const Signup = () => (
       <div className="main">
         <input className="input" placeholder="email"></input>
         <input className="input" placeholder="password"></input>
-        <button>Signup</button>
+      <a href='/profile' > <button>Signup</button></a>
       </div>
    </div>
 );

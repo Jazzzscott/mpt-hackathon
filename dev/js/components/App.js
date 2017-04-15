@@ -23,7 +23,7 @@ const App = () => (
 		 <Route exact path="/settings" component={Settings}/>
      <Route exact path="/signup" component={Signup}/>
 		 <Route exact path="/myparkpoints" component={ParkPoints}/>
-		 <Route exact path="/events" component={Events}/>
+		 <Route exact path="/event" component={Events}/>
 	</div>
 );
 
