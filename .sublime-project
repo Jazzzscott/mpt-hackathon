@@ -5,8 +5,7 @@
 			"name": "Root",
 			"path": "./",
 			"folder_exclude_patterns": [
-				"doc",
-				"src"
+				"node_modules"
 			]
 		}
 	],
