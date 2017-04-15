@@ -7,7 +7,9 @@ import thunk from 'redux-thunk';
 import promise from 'redux-promise';
 import createLogger from 'redux-logger';
 import allReducers from './reducers';
-import App from './components/App';
+import { Router, Route } from 'react-router'
+import createBrowserHistory from 'history/createBrowserHistory'
+import App from './components/App'
 
 const logger = createLogger();
 const store = createStore(
@@ -15,9 +17,13 @@ const store = createStore(
     applyMiddleware(thunk, promise, logger)
 );
 
+const history = createBrowserHistory()
+
 ReactDOM.render(
     <Provider store={store}>
-        <App />
+		<Router history={history}>
+			<Route path="/" component={App} />
+		</Router>
     </Provider>,
     document.getElementById('root')
 );

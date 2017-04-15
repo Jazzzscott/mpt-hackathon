@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Signup =()=>(
+const Signup = () => (
   <div>
     <h2> I am Signup</h2>
   </div>

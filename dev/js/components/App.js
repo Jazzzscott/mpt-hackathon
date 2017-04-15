@@ -1,21 +1,16 @@
-import React from 'react';
-import {Provider} from 'react-redux';
-import { Router, Route, IndexRoute, browserHistory } from 'react-router'
-import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
 
-import Signup from './Signup';
-import About from './About';
+import React from 'react';
+import { Router, Route } from 'react-router'
+import About from './About'
+import Signup from './Signup'
+
 require('../../scss/style.scss');
 
-const history = syncHistoryWithStore(browserHistory, store)
-
 const App = () => (
-    <Router history={ browserHistory } >
-      <Route path="/" component={Signup} />
-      <Route path='/about' component={About} />
-    </Router>
+	<div>
+		 <Route exact path="/" component={Signup}/>
+		 <Route exact path="/about" component={About}/>
+	</div>
 );
-
-
 
 export default App;

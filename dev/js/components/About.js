@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About =()=>(
+const About = () => (
   <div>
     <h2> I am About</h2>
   </div>
