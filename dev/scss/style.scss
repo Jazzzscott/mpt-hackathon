@@ -187,6 +187,7 @@ hr {
   }
 }
 
+
 .Park{
   .park-header{
     height:30vh;
@@ -198,6 +199,18 @@ hr {
       margin:0;
       font-size: 3rem;
       text-align: center;
+
+.parkPoints {
+  .badge-number {
+    color: gold;
+    font-size: 10em;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  .img-responsive {
+    margin: 0 auto;
+    span {
+      position: absolute;
     }
   }
 }
