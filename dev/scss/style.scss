@@ -253,6 +253,13 @@ hr {
       text-align: center;
     }
   }
+  .img-responsive {
+    margin: 0 auto;
+    span {
+      position: absolute;
+      margin-top:-50px;
+    }
+  }
 }
 .parkPoints {
   .badge-number {
