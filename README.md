@@ -9,6 +9,10 @@ Work in progress.
 - Coranna Howard
 - Grace Bergman
 - Jasmine Scott
-- Jessica Stone (Pierce County Parks & Recreation)
 - Krystaal McClain
 - Robin Choi
+
+# Assistants
+
+- Jamie DeTavis (UX Designer)
+- Jessica Stone (Pierce County Parks & Recreation)
