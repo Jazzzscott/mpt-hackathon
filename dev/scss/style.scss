@@ -56,7 +56,6 @@ $blue: #0757a0;
 
  .Parks {
     display: inline-block;
-
     .address {
       font-weight: bold;
       padding-top: 5%;
@@ -255,15 +254,15 @@ hr {
   }
 }
 .parkPoints {
+  h3 {
+   color: black;
+  }
   .badge-number {
     color: gold;
     font-size: 10em;
     font-weight: bold;
-
     top: -270px;
     left:65px;
-
-
   }
   .img-responsive {
     margin: 0 auto;
@@ -273,3 +272,15 @@ hr {
     }
   }
 }
+.parkPointsTopRow {
+  overflow:hidden;
+  margin-bottom: -200px
+}
+
+.btn-woohoo {
+  background-color: $green;
+  opacity: .75;
+  font-weight: bold;
+}
+
+
