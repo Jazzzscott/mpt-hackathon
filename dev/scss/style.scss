@@ -40,9 +40,15 @@ h3 {
   margin:0;
   padding:0;
 }
-
-.navbar-default {
-  background-color: $blue;
+a {
+  color: white;
+}
+.navbar-custom {
+    background-color: $blue;
+}
+a:focus, a:hover {
+    color: $blue ;
+    text-decoration: underline;
 }
 
 hr {

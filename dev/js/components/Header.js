@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from 'react-navbar';
 
 const Header = () => (
-	<nav className="navbar navbar-default navbar-fixed-top">
+	<nav className="navbar navbar-custom navbar-fixed-top">
         <div className="container-fluid">
             <div className="navbar-header">
                 <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -23,7 +23,7 @@ const Header = () => (
 				</ul>
 			</div>
 		</div>
-	</nav>	
+	</nav>
 );
 
 export default Header;
