@@ -1,4 +1,6 @@
-import React from 'react'
+
+import React, {Component} from 'react';
+import {connect} from 'react-redux';
 
 class Park extends React.Component{
   render(){
@@ -35,5 +37,10 @@ class Park extends React.Component{
   }
 }
 
+function mapStateToProps(state) {
+    return {
+        user: state.activeUser
+    };
+}
 
-ReactDOM.render(<Park />,document.getElementById('app'));
+export default connect(mapStateToProps)(Park);
