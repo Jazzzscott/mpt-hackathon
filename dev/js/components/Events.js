@@ -29,24 +29,15 @@ class Events extends React.Component{
     const familyStyle={
       backgroundImage:"url('/img/family.png')"
     }
+
     return(
       <div className="container">
         <div className="row">
           <div className="events">
-
-            <div>
-              <button style={sportsStyle} value="sports" onClick={this.sortHandler}></button>
-            </div>
-            <div>
+              <button style={sportsStyle}  value="sports" onClick={this.sortHandler}> </button>
               <button style={natureStyle} value="nature" onClick={this.sortHandler}></button>
-            </div>
-            <div>
               <button style={volunteerStyle} value="volunteer" onClick={this.sortHandler}></button>
-              </div>
-            <div>
               <button style={familyStyle} value="family" onClick={this.sortHandler}></button>
-            </div>
-
             <EventView sorter={sorted} />
           </div>
         </div>
