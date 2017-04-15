@@ -44,3 +44,25 @@ $blue: #0757a0;
  .Parks {
   display: inline-block;
  }
+  h3 {
+    color: $blue;
+  }
+  .address {
+    font-weight: bold;
+    padding-top: 5%;
+  }
+
+* {
+  margin:0;
+  padding:0;
+}
+
+.navbar-default {
+  background-color: $blue;
+}
+
+hr {
+  background-color: $green;
+  border:none;
+  height: 2px;
+}
