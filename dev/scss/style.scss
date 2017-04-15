@@ -27,14 +27,14 @@ $blue: #0757a0;
  .Parks {
     display: inline-block;
 
-    h3 {
-      color: $blue;
-    }
     .address {
       font-weight: bold;
       padding-top: 5%;
     }
   }
+h3 {
+      color: $blue;
+}
 
 * {
   margin:0;
