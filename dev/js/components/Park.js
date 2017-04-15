@@ -10,7 +10,7 @@ class Park extends React.Component{
         <div className="Park">
           <div className="park-header">
             <h1>
-            Welcome to AddlerPark
+            Welcome to AlderwoodPark!
             </h1>
           </div>
 
@@ -21,23 +21,18 @@ class Park extends React.Component{
           </div>
 
           <div className='upcoming-events'>
+            <h2>Upcoming Events</h 2>
             <ul>
-              <li>April 1 - Ryan's Park Volunteer Work Party!</li>
+              <label>April 1 </label>
+              <li> 9:00am - Ryan's Park Volunteer Work Party!</li>
 
-              <li>April 1 - China Lake Volunteer Work Party!</li>
-              <li>April 1 - Relax & Renew</li>
+              <li> 9:00am - China Lake Volunteer Work Party!</li>
+              <li> 9:00am - Relax & Renew</li>
+              <li> 10:00am - Family Nature Walk - Swan Creek Park</li>
               <a href="/events"><li> Show more</li></a>
             </ul>
           </div>
 
-          <div className='nearby-parks'>
-            <ul>
-              <li>Baltimore Park</li>
-              <li>Cummings Park</li>
-              <li>Roosevelt Park</li>
-
-            </ul>
-          </div>
         </div>
       </div>
     </div>

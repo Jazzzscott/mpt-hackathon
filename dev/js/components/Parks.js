@@ -11,7 +11,7 @@ class Parks extends React.Component {
             </div>
 
             <div className='col-sm-10 col-sm-offset-1' id='park1'>
-              <h3>Alderwood Park</h3>
+              <a href ="/AlderwoodPark"><h3>Alderwood Park</h3></a>
               <div className='Parks col-sm-6'>
                 <input className='col-sm-1' type='checkbox' checked/>
                 <span className='col-sm-11'>Dog Friendly</span>
