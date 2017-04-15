@@ -25,16 +25,16 @@ $blue: #0757a0;
  }
 
  .Parks {
-  display: inline-block;
+    display: inline-block;
 
-  h3 {
-    color: $blue;
+    h3 {
+      color: $blue;
+    }
+    .address {
+      font-weight: bold;
+      padding-top: 5%;
+    }
   }
-  .address {
-    font-weight: bold;
-    padding-top: 5%;
-  }
- }
 
 * {
   margin:0;
@@ -47,8 +47,9 @@ $blue: #0757a0;
 
 hr {
   background-color: $green;
-  border:none;
+  border: none;
   height: 2px;
+}
 
 .settings{
   margin: 5% 5% 0 5%;
