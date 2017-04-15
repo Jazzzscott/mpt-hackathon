@@ -4,10 +4,6 @@ import {connect} from 'react-redux';
 
 const Signup = () => (
   <div className="signup">
-      <div className='header'>
-        <button className="dropdown">=</button>
-        <h2>Park Square</h2>
-      </div>
       <div className="icon">
       </div>
 
