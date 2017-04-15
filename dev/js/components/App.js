@@ -5,7 +5,7 @@ import About from './About'
 import Signup from './Signup'
 import Profile from './Profile'
 import Park from './Park'
-import Event from './Event'
+import Events from './Events'
 import Settings from './Settings'
 import Header from './Header'
 import Parks from './Parks'
@@ -23,6 +23,7 @@ const App = () => (
 		 <Route exact path="/settings" component={Settings}/>
      <Route exact path="/signup" component={Signup}/>
 		 <Route exact path="/myparkpoints" component={ParkPoints}/>
+		 <Route exact path="/events" component={Events}/>
 	</div>
 );
 

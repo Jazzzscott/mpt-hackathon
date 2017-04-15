@@ -6,11 +6,14 @@ $blue: #0757a0;
 }
 
 .signup{
-  background-color: #27ae60;
+  background: url("/img/hikingTips.png") center center no-repeat;
   width:100%;
-  height:100%;
-
-  .main{
+  height:100vh;
+  .backgroundImage {
+    -webkit-filter: blur(25px);
+    filter: blur(25px)
+  }
+  .signupForm{
       text-align:center;
 
     button{
